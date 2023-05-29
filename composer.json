@@ -1,0 +1,22 @@
+{
+    "name": "mega/laravel",
+    "require": {
+        "laravel-lang/lang": "^12.21",
+        "laravel/sanctum": "^3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "require-dev": {
+        "pestphp/pest": "^2.0",
+        "pestphp/pest-plugin-laravel": "^2.0",
+        "laravel/breeze": "^1.21"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
